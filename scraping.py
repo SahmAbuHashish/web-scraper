@@ -28,8 +28,6 @@ def get_citations_needed_report(url):
 
 report = get_citations_needed_report(url)
 print(f'Citations needed report: {report}')
-# print(report)
-
 
 # convert to json
 json_passages = json.dumps(report)
